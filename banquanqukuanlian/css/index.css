@@ -35,6 +35,9 @@ a {
 .top {
   padding: 20px 25px 0px 30px;
 }
+li {
+  list-style: none;
+}
 .head {
   top: 0;
   width: 100%;
@@ -53,87 +56,85 @@ a {
   margin-left: 30px;
   height: 18px;
   line-height: 18px;
-}
-.head .top_contentRight li a {
   color: aliceblue;
   font-size: 16px;
 }
-.head .top_contentRight li a:hover {
+.head .top_contentRight li:hover {
   color: skyblue;
 }
-.banner {
+.qukuailian .banner {
   background: url(../images/bannerPage2-1.png) no-repeat;
   margin-top: 105px;
   padding: 180px 0;
   background-size: cover;
 }
-.banner p {
+.qukuailian .banner p {
   text-align: center;
   font-size: 60px;
   color: aliceblue;
 }
-.banner p span {
+.qukuailian .banner p span {
   font-size: 70px;
   color: #1baadd;
   font-weight: 700;
 }
-.center_content {
+.qukuailian .center_content {
   margin: 50px auto;
   position: relative;
   text-align: center;
 }
-.center_content .search img {
+.qukuailian .center_content .search img {
   position: absolute;
   top: 5px;
   left: 85px;
 }
-.center_content input {
+.qukuailian .center_content input {
   border: 1px solid #00154a;
   width: 80%;
   padding-left: 100px;
   height: 48px;
   border-radius: 50px;
 }
-.tab {
+.qukuailian .tab {
   margin-top: 50px;
 }
-.tab table {
+.qukuailian .tab table {
   border-collapse: collapse;
   width: 100%;
   text-align: center;
 }
-.tab table thead {
+.qukuailian .tab table thead {
   background: linear-gradient(90deg, #00193c, #00a0e9);
 }
-.tab table thead th {
+.qukuailian .tab table thead th {
   height: 70px;
   border: 1px solid transparent;
   color: aliceblue;
 }
-.tab table thead .td1 {
+.qukuailian .tab table thead .td1 {
   width: 648px;
 }
-.tab table thead .td2 {
+.qukuailian .tab table thead .td2 {
   width: 100px;
 }
-.tab table thead .td3 {
+.qukuailian .tab table thead .td3 {
   width: 146px;
 }
-.tab table thead .td4 {
+.qukuailian .tab table thead .td4 {
   width: 209px;
 }
-.tab table tbody tr {
+.qukuailian .tab table tbody tr {
   height: 50px;
   line-height: 50px;
 }
-.tab table tbody tr td {
+.qukuailian .tab table tbody tr td {
   border: 1px solid #ccc;
 }
-.page ul {
+.qukuailian .page ul {
   margin: 0 auto 120px;
   padding-left: 50%;
 }
-.page ul li {
+.qukuailian .page ul li {
   list-style: none;
   float: left;
   padding: 10px;

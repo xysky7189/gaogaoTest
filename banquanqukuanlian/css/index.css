@@ -1,0 +1,422 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url('../fonts/iconfont.eot');
+  src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'), url('../fonts/iconfont.woff2') format('woff2'), url('../fonts/iconfont.woff') format('woff'), url('../fonts/iconfont.ttf') format('truetype'), url('../fonts/iconfont.svg#iconfont') format('svg');
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+}
+.w {
+  width: 1200px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.clr {
+  clear: both;
+  overflow: hidden;
+}
+.top {
+  padding: 20px 25px 0px 30px;
+}
+li {
+  list-style: none;
+}
+.active {
+  color: #1baadd;
+}
+.head {
+  top: 0;
+  width: 100%;
+  height: 105px;
+  background-color: black;
+  position: fixed;
+  z-index: 99;
+}
+.head .top_contentRight span {
+  color: aliceblue;
+  margin-left: 50px;
+}
+.head .top_contentRight li {
+  float: left;
+  margin-top: 10px;
+  margin-left: 30px;
+  height: 18px;
+  line-height: 18px;
+  color: aliceblue;
+  font-size: 16px;
+  cursor: pointer;
+}
+.head .top_contentRight li:hover {
+  color: skyblue;
+}
+.qukuailian {
+  display: block;
+}
+.qukuailian .banner2 {
+  background: url(../images/bannerPage2-1.png) no-repeat;
+  margin-top: 105px;
+  padding: 180px 0;
+  background-size: cover;
+}
+.qukuailian .banner2 p {
+  text-align: center;
+  font-size: 60px;
+  color: aliceblue;
+}
+.qukuailian .banner2 p span {
+  font-size: 70px;
+  color: #1baadd;
+  font-weight: 700;
+}
+.qukuailian .center_content {
+  margin: 50px auto;
+  position: relative;
+  text-align: center;
+}
+.qukuailian .center_content .search img {
+  position: absolute;
+  top: 5px;
+  left: 85px;
+}
+.qukuailian .center_content input {
+  border: 1px solid #00154a;
+  width: 80%;
+  padding-left: 100px;
+  height: 48px;
+  border-radius: 50px;
+}
+.qukuailian .tab {
+  margin-top: 50px;
+}
+.qukuailian .tab table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+.qukuailian .tab table thead {
+  background: linear-gradient(90deg, #00193c, #00a0e9);
+}
+.qukuailian .tab table thead th {
+  height: 70px;
+  border: 1px solid transparent;
+  color: aliceblue;
+}
+.qukuailian .tab table thead .td1 {
+  width: 648px;
+}
+.qukuailian .tab table thead .td2 {
+  width: 100px;
+}
+.qukuailian .tab table thead .td3 {
+  width: 146px;
+}
+.qukuailian .tab table thead .td4 {
+  width: 209px;
+}
+.qukuailian .tab table tbody tr {
+  height: 50px;
+  line-height: 50px;
+}
+.qukuailian .tab table tbody tr td {
+  border: 1px solid #ccc;
+}
+.qukuailian .page ul {
+  margin: 0 auto 120px;
+  padding-left: 50%;
+}
+.qukuailian .page ul li {
+  list-style: none;
+  float: left;
+  padding: 10px;
+}
+.dongtai {
+  display: none;
+}
+.dongtai .banner3 {
+  background: url(../images/bannerPage2-1.png) no-repeat;
+  margin-top: 105px;
+  padding: 180px 0;
+  background-size: cover;
+}
+.dongtai .banner3 p {
+  text-align: center;
+  font-size: 60px;
+  color: aliceblue;
+}
+.dongtai .banner3 p span {
+  font-size: 70px;
+  color: #1baadd;
+  font-weight: 700;
+}
+.dongtai .lis ul li {
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+}
+.dongtai .lis ul li img {
+  width: 300px;
+  height: 150px;
+  margin-right: 20px;
+}
+.dongtai .lis ul li .li_div {
+  width: 810px;
+}
+.dongtai .lis ul li .li_div a {
+  font-weight: 400;
+  color: #000;
+}
+.dongtai .lis ul li .li_div a:hover {
+  color: #00a0e9;
+}
+.dongtai .lis ul li .li_div p {
+  margin-top: 10px;
+  color: #999;
+  font-size: 16px;
+  line-height: 30px;
+}
+.huiyuan {
+  display: none;
+}
+.huiyuan .banner4 {
+  background: url(../images/banner3.png) no-repeat;
+  margin-top: 105px;
+  padding: 180px 0;
+  background-size: cover;
+}
+.huiyuan .banner4 p {
+  text-align: center;
+  font-size: 60px;
+  color: aliceblue;
+}
+.huiyuan .banner4 p span {
+  font-size: 70px;
+  color: #1baadd;
+  font-weight: 700;
+}
+.huiyuan .huiyuan_li li {
+  float: left;
+  margin-right: 37.5px;
+  height: 575px;
+  width: 373px;
+  border: 1px solid #ccc;
+  border-radius: 0 0 10px 10px;
+  text-align: center;
+}
+.huiyuan .huiyuan_li li h3 {
+  padding: 30px 0;
+  font-weight: 400;
+}
+.huiyuan .huiyuan_li li h3:hover {
+  color: #00a0e9;
+}
+.huiyuan .huiyuan_li li .cont {
+  padding: 0 30px;
+}
+.huiyuan .huiyuan_li li .cont p {
+  padding-bottom: 20px;
+  color: #333;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: left;
+}
+.huiyuan .huiyuan_li li .cont dl {
+  text-align: left;
+  padding-left: 16%;
+  font-size: 18px;
+}
+.huiyuan .huiyuan_li li .cont dl span {
+  margin-right: 5px;
+}
+.huiyuan .huiyuan_li li .cont dl dd {
+  margin-left: 20px;
+  padding-top: 10px;
+  font-size: 14px;
+  line-height: 18px;
+}
+.huiyuan .huiyuan_li li .cont .last_dt {
+  margin-top: 20px;
+}
+.huiyuan .huiyuan_li li .cont .last_dd {
+  margin-top: 10px;
+}
+.huiyuan .huiyuan_li li:last-child {
+  margin-right: 0;
+}
+.huiyuan .downloads {
+  padding: 0 9%;
+}
+.huiyuan .downloads li {
+  background: url(../images/download.png) no-repeat;
+  height: 75px;
+  line-height: 75px;
+  width: 472px;
+  padding-left: 100px;
+  box-sizing: border-box;
+  font-size: 18px;
+  border: 1px solid #00a0e9;
+  border-radius: 0;
+}
+.huiyuan .downloads li a {
+  display: block;
+  color: black;
+  height: 75px;
+}
+.huiyuan .joined {
+  margin: 75px auto 70px;
+  text-align: center;
+}
+.huiyuan .joined button {
+  width: 220px;
+  height: 66px;
+  background: #00a0e9;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.ziyuan {
+  display: none;
+}
+.ziyuan .banner5 {
+  background: url(../images/bannerPage2-1.png) no-repeat;
+  margin-top: 105px;
+  padding: 180px 0;
+  background-size: cover;
+}
+.ziyuan .banner5 p {
+  text-align: center;
+  font-size: 60px;
+  color: aliceblue;
+}
+.ziyuan .banner5 p span {
+  font-size: 70px;
+  color: #1baadd;
+  font-weight: 700;
+}
+.ziyuan .ziyuan_lis li {
+  width: 100%;
+  height: 136px;
+  padding: 20px 0;
+  border-bottom: 1px solid #ccc;
+}
+.ziyuan .ziyuan_lis li .div_fl {
+  margin-right: 65px;
+}
+.ziyuan .ziyuan_lis li .div_fr {
+  padding-top: 50px;
+}
+.ziyuan .ziyuan_lis li .div_fr a {
+  color: #000;
+  font-size: 18px;
+}
+.ziyuan .ziyuan_lis li .div_fr a:hover {
+  color: #00a0e9;
+}
+.aboutus {
+  display: none;
+}
+.aboutus .w {
+  margin-top: 105px;
+  padding: 70px 0 105px;
+}
+.aboutus .w .about_img {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.aboutus .w p {
+  font-size: 16px;
+  text-indent: 2em;
+  line-height: 30px;
+}
+.footer {
+  width: 100%;
+  padding: 40px 0;
+  background: #000;
+}
+.footer .footer_content {
+  padding-right: 0px;
+  padding-left: 10px;
+  padding-bottom: 70px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #666;
+}
+.footer .footer_content .jianjie ul {
+  margin-top: 40px;
+  margin-left: 50px;
+}
+.footer .footer_content .jianjie ul li {
+  float: left;
+  font-size: 18px;
+}
+.footer .footer_content .jianjie ul li a {
+  padding: 0 20px;
+  color: #fff;
+}
+.footer .footer_content .jianjie ul li a:hover {
+  color: #00a0e9;
+}
+.footer .footer_content .jianjie ul li:first-child {
+  border-right: 1px solid #fff;
+}
+.footer .footer_content .img_fr ul {
+  margin-top: 40px;
+}
+.footer .footer_content .img_fr ul li {
+  float: left;
+  margin-right: 20px;
+  margin-left: 35px;
+  color: #fff;
+}
+.footer .footer_content .img_fr ul li a {
+  color: #fff;
+  font-size: 40px;
+}
+.footer .footer_content .img_fr ul li a:hover {
+  color: #00a0e9;
+}
+.footer .footer_content .img_fr ul li #erwei {
+  font-size: 45px;
+}
+.footer .footer_content .img_fr ul li span:hover {
+  color: #00a0e9;
+}
+.footer .footer_content .erma {
+  position: fixed;
+  display: none;
+  bottom: 250px;
+  right: 206px;
+  width: 130px;
+  height: 130px;
+}
+.footer .footer_content .erma .triangle {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 13px solid #fff;
+  margin-left: 57px;
+}
+.footer p {
+  text-align: center;
+  color: #fff;
+}
+.footer p:last-child {
+  margin-top: 10px;
+  color: #666;
+  font-size: 12px;
+}
